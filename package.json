@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "nodemon ./js/01-variables.js",
     "nd": "nodemon ./js/02-numbers.js",
+    "strng": "nodemon ./js/03-strings.js",
+    "array": "nodemon ./js/04-array.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
