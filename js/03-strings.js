@@ -35,7 +35,7 @@ console.log(backtickClient);
 
 const n1 = 7;
 const n2 = 5;
-const rez = n1 + n2
+const rez = n1 + n2;
 //7 + 5 = 12
 const ats = `${n1} + ${n2} = ${rez}`;
 console.log(ats);
