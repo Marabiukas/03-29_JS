@@ -45,40 +45,7 @@ console.log('Pazymiai:', pazymiai);
 const studentai = ['Petras', 'Maryte', 'Jonas', 'Ona'];
 console.log(studentai);
 
-/* Namu darbas */
 
-const No1 = 100
-console.log(No1)
-
-const No2 = 200
-console.log(No2)
-
-const No3 = 300
-console.log(No3)
-
-const text1 = 'Labas rytas'
-console.log(text1)
-
-const text2 = 'Laba diena'
-console.log(text2)
-
-const text3 = 'Labas vakaras'
-console.log(text3)
-
-const numeriai = [ 1, 9, 7, 5, 0]
-console.log(numeriai)
-
-const numeriai2 = [ 2, 0, 2, 2, 3]
-console.log(numeriai2)
-
-const numeriai3 = [ 1, 2, 3, 4, 5]
-console.log(numeriai3)
-
-console.log(No1 + No2 + No3)
-
-console.log(text1, text2, text3)
-
-/* namu darbu pabaiga */
 
 
 

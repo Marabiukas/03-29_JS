@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./js/01-variables.js",
-    "nd": "nodemon ./js/02-numbers.js",
+    "nd": "nodemon ./js/00-namu_darbai.js",
+    "var": "nodemon ./js/01-variables.js",
+    "nr": "nodemon ./js/02-numbers.js",
     "strng": "nodemon ./js/03-strings.js",
     "array": "nodemon ./js/04-array.js",
+    "if": "nodemon ./js/05-if.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
