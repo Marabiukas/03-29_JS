@@ -196,3 +196,47 @@ if (Z >= 0) {
     console.log('Petras i pamoka paveluos')
 }
 
+console.log('START')
+
+const skaiciai = [0, 1, 2, 3, 4]
+let suma = 0;
+
+for (let i = 0; i < skaiciai.length; i++) {
+    const skaicius = skaiciai[i];
+    suma += skaicius;
+}
+console.log(`${suma}`);
+console.log('END')
+
+console.log('Pirmo simto skaiciu suma')
+let summe = 0;
+for (let i=0; i<=100; i++) {
+    summe += i;
+    console.log(summe);
+}
+console.log(`Suma yra: ${summe}`);
+
+console.log('Dalyba')
+
+let sum3 = 0;
+let sum5 = 0;
+let sum7 = 0;
+
+for (let i=0; i<=11; i++) {
+    dalyba3 = i % 3;
+    if (dalyba3 == 0) {
+        sum3 += 1;
+    }
+        dalyba5 = i % 5;
+    if (dalyba5 == 0) {
+        sum5 +=1;
+    }
+    dalyba7 = i % 7;
+    if (dalyba7 == 0) {
+        sum7 += 1
+    }
+}
+console.log(`Skaiciu intervale tarp 0 ir 11, besidalinanciu be liekanos is 3 yra ${sum3} vienetai`);
+console.log(`Skaiciu intervale tarp 0 ir 11, besidalinanciu be liekanos is 5 yra ${sum5} vienetai`);
+console.log(`Skaiciu intervale tarp 0 ir 11, besidalinanciu be liekanos is 7 yra ${sum7} vienetai`);
+
