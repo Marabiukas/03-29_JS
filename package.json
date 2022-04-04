@@ -12,6 +12,9 @@
     "if": "nodemon ./js/05-if.js",
     "fun": "nodemon ./js/06-function.js",
     "for": "nodemon ./js/07-for.js",
+    "while": "nodemon ./js/08-while.js",
+    "a-fun": "nodemon ./js/09-arrow-functions.js",
+    "uzd": "nodemon ./js/10-uzdaviniai.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

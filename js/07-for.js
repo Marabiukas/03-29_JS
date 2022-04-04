@@ -40,3 +40,4 @@ console.log('Vidurkis:', Vidurkis);
 for (let i=-80; i<-60; i++) {
     console.log(i)
 }
+
