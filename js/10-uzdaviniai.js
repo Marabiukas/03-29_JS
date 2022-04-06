@@ -14,44 +14,7 @@ console.log(sumaIntervale(574, 815));
 console.log(sumaIntervale(-50, 50));
 console.log(sumaIntervale(-70, 30));
 
-//Reversingas
 
-function reverseString(text) {
-    const a = text.length - 1;
-    let reverse = '';
-
-    for (let i = 0; i < text.length; i++) {
-        const position = a - i;
-        const letter = text[position];
-        reverse += letter;
-    }    
-    return reverse;
-}
-
-console.log(reverseString('kokteilis'), '-->', 'cba')
-
-function reverseString2(text) {
-    let reverse = '';
-
-    for (let i=0; i < text.length; i++) {
-        const letter = text[i];
-        reverse = letter + reverse;
-    }
-    return reverse;
-}
-
-console.log(reverseString2('kokteilis'), '-->', 'cba');
-
-function reverseString3(text) {
-    let reverse = '';
-
-    for (let i=text.length-1; i>=0; i--) {
-        reverse += text[i]
-    }
-    return reverse;
-}
-
-console.log(reverseString3('kokteilis'), '-->', 'cba');
 
 // Dalyba be liekanos
 
@@ -77,27 +40,25 @@ const daugybele = (a, b) => a * b;
 
 console.log('Dvieju skaiciu sandauga', daugybele(7, 5));
 
-function daugyba(a, b) {
-    //jei a nera skaicius -> ERROR
-    if (typeof a !== 'number') {
-        return 'ERROR: pirmas parametras turi buti skaicius';
-    }
-    if (isNaN(a)) {
-        return 'ERROR: pirmas parametras turi buti tikras skaicius';
-    }
-    
-    // jei b nera skaicius -> ERROR
-    if (typeof b !== 'number') {
-        return 'ERROR: antras parametras turi buti skaicius';
-    }
-    if ('' + b === 'NaN') {
-        return 'ERROR: antras parametras turi buti tikras skaicius';
-    }
-    return a * b;
-};
-
-console.log(daugyba(7, 5));
-console.log(daugyba('', 5));
-console.log(daugyba(7, Infinity));
 
 
+
+
+
+
+
+
+//Kelintiniai metai
+console.log('Kelintiniai metai')
+
+function Metai (metai) {
+    if (metai % 400 == 0) {
+        return 'Metai yra kelintiniai';
+    } else if (metai % 4 != 0 || metai % 400 !=0) {
+        return 'Metai yra nekelintiniai';
+    } else {
+        return 'Metai yra kelintiniai';
+    }
+}
+
+console.log(Metai(1900))

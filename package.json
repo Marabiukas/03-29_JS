@@ -15,6 +15,13 @@
     "while": "nodemon ./js/08-while.js",
     "a-fun": "nodemon ./js/09-arrow-functions.js",
     "uzd": "nodemon ./js/10-uzdaviniai.js",
+    "rev": "nodemon ./js/11-function-reverse.js",
+    "daug": "nodemon ./js/12-function-daugyba.js",
+    "size": "nodemon ./js/13-function-NumberSize.js",
+    "larg": "nodemon ./js/14-function-largestNumber.js",
+    "lett": "nodemon ./js/15-function-isrinktiRaides.js",
+    "obj": "nodemon ./js/16-object.js",
+    "class": "nodemon ./js/17-class.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

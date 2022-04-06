@@ -1,0 +1,45 @@
+//Number size
+console.log('Number Size')
+
+function numSize (num) {
+    if (typeof num !== 'number'
+ //   || isNaN(num) 
+ //   || num === Infinity
+ //   || num === -Infinity
+    || !isFinite(num) ) {
+        return 'ERROR: netinkamas tipas';
+    }
+
+  // number -> string, kad panaudot .length
+  
+  const numAsString = '' + num;
+  let size = numAsString.length;
+
+  // nustatome ar skaicius turi trupmena, t.y. yra kablelis
+  if (num % 1 !== 0) {
+      size--;
+  }
+
+  // jei neigiamas
+  if (num < 0) {
+      size--;
+  }
+    return  size;
+}
+
+
+console.log(numSize(true), '-->', 'ERROR');
+console.log(numSize('asd'), '-->', 'ERROR');
+console.log(numSize(NaN), '-->', 'ERROR');
+console.log(numSize(Infinity), '-->', 'ERROR');
+console.log(numSize(-Infinity), '-->', 'ERROR');
+console.log(numSize([]), '-->', 'ERROR');
+console.log(numSize(numSize), '-->', 'ERROR');
+
+console.log(numSize(5), '-->', 1);
+console.log(numSize(781), '-->', 3);
+console.log(numSize(3.14), '-->', 3);
+
+console.log('EXTRA... (galvos skausmas)')
+// kai labai mazas ar labai didelis skaicius, nes uzrasomas per e laipsni
+console.log(numSize(0.00000000001), '-->', 12);
