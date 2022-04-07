@@ -22,6 +22,8 @@
     "lett": "nodemon ./js/15-function-isrinktiRaides.js",
     "obj": "nodemon ./js/16-object.js",
     "class": "nodemon ./js/17-class.js",
+    "cex": "nodemon ./js/18-class-extend.js",
+    "meth": "nodemon ./js/19-class-methods.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
